@@ -28,7 +28,7 @@ function App() {
       {currentUser.username ? <NavBar setCurrentUser={setCurrentUser}/> : null}
       <Switch>
       <Route exact path="/"><Login setCurrentUser={setCurrentUser}/></Route>
-        <Route exact path="/movies"><Home currentUser={currentUser}/></Route>
+        <Route exact path="/all-movies"><Home currentUser={currentUser}/></Route>
         <Route exact path="/1980s"><Eighties currentUser={currentUser}/></Route>
         <Route exact path="/1990s"><Nineties currentUser={currentUser}/></Route>
         <Route exact path="/2000s"><TwoThousands currentUser={currentUser}/></Route>

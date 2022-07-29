@@ -22,7 +22,7 @@ function NavBar({ setCurrentUser }) {
   return (
   <div className="navbar">
     <h1 className="navbar-title">Nicolas Cage Movies</h1>
-    <Link to="/movies"><p className="navbar-link">All Movies</p></Link>
+    <Link to="/all-movies"><p className="navbar-link">All Movies</p></Link>
     <Link to="/1980s"><p className="navbar-link">1980s</p></Link>
     <Link to="/1990s"><p className="navbar-link">1990s</p></Link>
     <Link to="/2000s"><p className="navbar-link">2000s</p></Link>
