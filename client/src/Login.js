@@ -22,7 +22,7 @@ function Login({ setCurrentUser }) {
       if(res.ok) {
         res.json().then(user => {
           setCurrentUser(user)
-          history.push('/movies')
+          history.push('/all-movies')
         })
       } else {
         res.json().then(errorData => setErrors(errorData.errors))
@@ -43,7 +43,7 @@ function Login({ setCurrentUser }) {
       if(res.ok) {
         res.json().then(user => {
           setCurrentUser(user)
-          history.push('/movies')
+          history.push('/all-movies')
         })
       } else {
         res.json().then(errorData => setErrors(errorData.errors))
