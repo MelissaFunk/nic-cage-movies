@@ -18,7 +18,7 @@ function NavBar({ setCurrentUser }) {
         }
     })
 }  
-
+ 
   return (
   <div className="navbar">
     <h1 className="navbar-title">Nicolas Cage Movies</h1>
